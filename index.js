@@ -16,7 +16,7 @@ app.listen(3000, () => {
 
 mongoose
   .connect(
-    "mongodb+srv://pkobenj41:rUN8LwKf7thdBb36@cluster0.nzolphz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://username:<password>@cluster0.nzolphz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     console.log("You have successfully connencted to database!");
